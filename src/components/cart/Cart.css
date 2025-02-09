@@ -1,0 +1,22 @@
+.cart {
+    position: relative;
+}
+.cart-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.cart-text {
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 0.2rem 0.5rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    color: #fba418ce;  
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    background-color: #8b8b8b13; 
+}
