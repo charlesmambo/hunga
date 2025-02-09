@@ -1,6 +1,6 @@
 .nav{
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;  
-    background-color: #ffffff; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: #F4F6FF; 
     padding: 2rem 4rem; 
     display: flex;
     align-items: center;
@@ -17,4 +17,29 @@
     font-weight: 700;
     color: #FBA518;
     font-size: 1.6rem;
+}
+
+.hamburger{
+    color: #FBA518;  
+    font-size: 1.7rem; 
+    cursor: pointer;
+}
+
+.nav-drop-downs {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav{
+        padding: 2rem 1.5rem; 
+    }  
+    
+    .secondary,
+    .hide{
+        display: none;
+    }
+
+    .nav-drop-downs {
+        display: block;
+    }
 }

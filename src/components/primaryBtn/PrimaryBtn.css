@@ -10,6 +10,8 @@
     cursor: pointer;
     transition: transform 0.6s ease-in-out, background-color 0.3s ease-in-out;
     min-width: 120px;
+    border: none;
+    font-family: inherit;
 }
 
 .primary-btn:hover {

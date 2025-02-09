@@ -6,7 +6,7 @@ const Cart = () => {
   return (
     <div className='cart'>
       <MdOutlineShoppingCart className='cart-icon'/>
-      <small className='cart-text'>10</small>
+      <small className='cart-text'>0</small>
     </div>
   )
 }
