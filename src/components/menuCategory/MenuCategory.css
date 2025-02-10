@@ -1,0 +1,51 @@
+.menu-box{
+    box-shaow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 8.1vw;
+    height: 10vh;
+    border-radius: 0.4rem;
+    background-color: #fba41819;
+    cursor: pointer;
+    transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;
+}
+
+.menu-box:hover{
+    transform: scale(1.1);
+    background-color: #3E7EA6; 
+    color: #f4f4f4;
+}
+
+.menu-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.menu-box-icon{
+    font-size: 2.2rem;
+    color: #fba418a9;
+}
+
+
+.menu-box p{
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px){
+    .menu-box{
+        width: 24.4vw;
+        height: 10vh;
+    }  
+    .menu-box p{
+        font-size: 0.8rem;
+    } 
+    .menu-box-icon{
+        font-size: 1.8rem;
+        color: #fba418a9;
+    }
+    .cocktail-category {
+        justify-self: start !important;
+        margin-left: 0;
+    }
+}
